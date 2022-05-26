@@ -1,0 +1,15 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 2px;
+}
+
+.flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  
+app-square {
+    height: 100px;
+}
